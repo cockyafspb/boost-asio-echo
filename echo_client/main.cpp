@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     if (argc != 3) {
-        std::cerr << "Correct usage: echo_client <ip> <port>\n";
+        std::cerr << "Usage: echo_client <ip> <port>\n";
         return EXIT_FAILURE;
     }
     io_context ioc;
